@@ -1,0 +1,33 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+
+<ui:composition template="template.xhtml">
+
+	<ui:define name="titrePage">#{msg['message.accueil']}</ui:define>
+
+	<ui:define name="body">
+
+<h:form>
+		<h:commandLink action="enregistrer-client" value="#{msg['client.enregistrer']}" />
+		<br/>
+		<h:commandLink action="enregistrer-voiture" value="#{msg['voiture.enregistrer']}" />
+		<br/>
+		<h:commandLink action="enregistrer-reservation" value="#{msg['reservation.enregistrer']}" />
+		<br/>
+		<h:commandLink action="list-clients" value="#{msg['client.liste']}" />
+		<br/>
+		<h:commandLink action="list-voitures" value="#{msg['voiture.liste']}" />
+		<br/>
+		<h:commandLink action="list-reservations" value="#{msg['reservation.liste']}" />
+		
+		
+		
+</h:form>
+
+	</ui:define>
+</ui:composition>
+
+</html>

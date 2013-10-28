@@ -1,0 +1,67 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	template="/templates/default.xhtml">
+
+	<ui:define name="body">
+		<h1>Liste des employés</h1>
+		<br />
+		<h:form class="form-horizontal">
+
+			<p:dataTable id="employees" var="employe" value="#{employeMB.employeList}"
+				style="width: 10%">
+				<p:column>
+					<f:facet name="header">
+						<h:outputText value="Id" />
+					</f:facet>
+					<h:outputText value="#{employe.id}" />
+				</p:column>
+				<p:column>
+					<f:facet name="header">
+						<h:outputText value="Nom" />
+					</f:facet>
+					<h:outputText value="#{employe.nom}" />
+				</p:column>
+				<p:column>
+					<f:facet name="header">
+						<h:outputText value="Prenom" />
+					</f:facet>
+					<h:outputText value="#{employe.prenom}" />
+				</p:column>
+				<p:column>
+					<f:facet name="header">
+						<h:outputText value="Login" />
+					</f:facet>
+					<h:outputText value="#{employe.login}" />
+				</p:column>
+				<p:column>
+					<f:facet name="header">
+						<h:outputText value="Mot de passe" />
+					</f:facet>
+					<h:outputText value="#{employe.password}" />
+				</p:column>
+
+				<p:column>
+					<f:facet name="header">
+						<h:outputText value="ACTION" />
+					</f:facet>
+					<h:commandLink action="#{employeMB.deleteEmployee()}" value="Supprimer" />
+				</p:column>
+				<p:column>
+					<f:facet name="header">
+						<h:outputText value="ACTION" />
+					</f:facet>
+					<h:commandLink action="#{employeMB.updateEmployee()}" value="Modifier" />
+				</p:column>
+
+
+			</p:dataTable>
+			<br />
+			<br />
+
+		</h:form>
+
+	</ui:define>
+</ui:composition>

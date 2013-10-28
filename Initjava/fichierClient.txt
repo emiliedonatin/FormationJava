@@ -1,0 +1,6 @@
+M:12453:siret:ape:rue:ville:cp
+M:eljbef:n,ebc:hzjv:hge:efkjbe:ejbe
+M:6663:siret:ape:rue:ville:cp
+P:ref:nom:prenom:rue:ville:cp
+P:refclient:mouse:mickey:rue de la paix:aix en provence:13120
+P:refclient:henry:blanc:rue de la paix:paris:95847

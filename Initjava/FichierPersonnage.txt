@@ -1,0 +1,6 @@
+M;1000;178;Royaume des Cieux;Gourdin;12
+E;1000;601;25 cm;Gourdin;2
+C;1000;25;True;Epee;Argent
+M;1000;1125;Royaume des Dieux;BaguetteMagique;60
+E;1000;12;80 cm;BaguetteMagique;5
+C;1000;48;False;Gourdin;7

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listPersonnage xmlns="http://www.w3schools.com">
+	<personnage>
+		<type>M</type>
+		<nbVie>100</nbVie>
+		<age>50</age>
+	</personnage>
+	<personnage>
+		<type>C</type>
+		<nbVie>100</nbVie>
+		<age>0</age>
+	</personnage>
+	<personnage>
+		<type>E</type>
+		<nbVie>100</nbVie>
+		<age>0</age>
+	</personnage>
+	<personnage>
+		<type>M</type>
+		<nbVie>100</nbVie>
+		<age>0</age>
+		<arme>
+			<type>G</type>
+			<point>10</point>
+		</arme>
+	</personnage>
+</listPersonnage>

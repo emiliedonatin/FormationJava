@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+
+<listPersonnage xmlns="http://www.w3schools.com">
+
+	<personnage>
+		<type>M</type>
+		<nbVie>100</nbVie>
+		<age>50</age>
+		<armePref>
+			<type>B</type>
+			<point>10</point>
+		</armePref>
+		<armeActive>
+			<type>B</type>
+			<point>10</point>
+		</armeActive>
+	</personnage>
+	
+	
+	<personnage>
+		<type>C</type>
+		<nbVie>100</nbVie>
+		<armePref>
+			<type>B</type>
+			<point>10</point>
+		</armePref>
+	</personnage>
+	
+	<personnage>
+		<type>E</type>
+		<nbVie>100</nbVie>
+		<armePref>
+			<type>G</type>
+			<point>10</point>
+		</armePref>
+		<armeActive>
+			<type>G</type>
+			<point>10</point>
+		</armeActive>
+	</personnage>
+	
+</listPersonnage>

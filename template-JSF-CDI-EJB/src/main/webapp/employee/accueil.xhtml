@@ -1,0 +1,21 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	template="/templates/default.xhtml">
+
+<ui:param name="employesActive" value="active" />
+
+	<ui:define name="body">
+		<center><h1>Bienvenue sur notre application de gestion des plannings</h1></center>
+		<br />
+		<center><img src="http://www.planningpme.fr/Images/logiciel-planning-accueil-zoom.gif" /></center>
+		<h:form class="form-horizontal">
+		<br />
+		<br />
+		<br />
+		<center><h:commandButton id="create" value="ENTRER" action="/employee/create" ajax="false" immediate="true" styleClass="btn btn-primary"/></center>
+</h:form>
+</ui:define>
+</ui:composition>
